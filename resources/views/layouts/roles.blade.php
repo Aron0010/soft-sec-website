@@ -13,11 +13,14 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   @livewireStyles
 
   <!-- Scripts -->
   <script src="{{ mix('js/app.js') }}" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body class="font-sans antialiased">
@@ -27,13 +30,15 @@
     <!-- Page Heading -->
     <header class="bg-white shadow">
       <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-        {{ $header }}
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+          Roles
+        </h2>
       </div>
     </header>
 
     <!-- Page Content -->
     <main>
-      {{ $slot }}
+      @yield('content')
 
     </main>
 

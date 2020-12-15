@@ -9,6 +9,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
+use jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
 
 class User extends Authenticatable implements MustVerifyEmail
 {
@@ -17,6 +18,7 @@ class User extends Authenticatable implements MustVerifyEmail
     use HasProfilePhoto;
     use Notifiable;
     use TwoFactorAuthenticatable;
+    use HasRoleAndPermission;
 
     /**
      * The attributes that are mass assignable.
