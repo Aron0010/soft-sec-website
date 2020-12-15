@@ -21,4 +21,11 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::get('post/create', \App\Http\Livewire\Post\Create::class)
+    ->name('create-post');
+
+    Route::get('post/{slug}', \App\Http\Livewire\Post\Show::class);
+
+    Route::view('blog', 'post.index')->name('blog');
 });
