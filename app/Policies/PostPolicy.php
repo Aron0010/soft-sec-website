@@ -41,7 +41,11 @@ class PostPolicy
      */
     public function create(User $user)
     {
-        //
+        if ($user->hasRole(['user'])) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -53,7 +57,11 @@ class PostPolicy
      */
     public function update(User $user, Post $post)
     {
-        //
+        if ($user->hasRole(['admin', 'user'])) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -65,7 +73,11 @@ class PostPolicy
      */
     public function delete(User $user, Post $post)
     {
-        //
+        if ($user->hasRole('admin')) {
+            return true;
+        } else {
+            return $user->id === $post->user_id;
+        }
     }
 
     /**
