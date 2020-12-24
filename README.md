@@ -17,7 +17,7 @@ kiezen, daar vul je een van de onderstaande API Tokens in.
 ###  Posts
 ```
 +----------------------+------------------+--------------+--------------+------------------+
-| Domain   			   | URI	          | Method		 | Auth		 	| Description 	   |
+| Domain               | URI              | Method       | Auth         | Description 	   |
 +----------------------+------------------+--------------+--------------+------------------+
 | https://aronraes.be/ | api/posts        | GET|HEAD     | NOT REQUIRED | Show all posts   |
 | https://aronraes.be/ | api/posts/search | POST         | REQUIRED     | Search for posts |
@@ -33,10 +33,10 @@ Niets speciaal hier
 ? De gevraagde policy is gemaakt, geen extra features. Moet ik deze hier nog uitschrijven of is dit voldoende?
 ```
 +-----------+-----------+--------------------------+----------+-----------------------------------------+
-| User  	| Role	    | Email	                   | Password | API Token 	   	  						|
+| User      | Role      | Email                    | Password | API Token                               |
 +-----------+-----------+--------------------------+----------+-----------------------------------------+
 | Aron Raes | Beheerder | aron.raes@student.ehb.be | qwfpgjlu | JK5x7uHFdXUwLBDi9uL4UY2NrBOKxK593I7lAOxS
-| User 1 	| Gebruiker | aron.raes@hotmail.com	   | qwfpgjlu | K63iAkuRM8XP76xrd9sPE9cb2lDOkvy68ilGPSHe
+| User 1    | Gebruiker | aron.raes@hotmail.com    | qwfpgjlu | K63iAkuRM8XP76xrd9sPE9cb2lDOkvy68ilGPSHe
 ```
 
 ? Moet de policy ook op de webtoepassing van kracht zijn of enkel op de rest api?
