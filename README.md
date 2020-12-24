@@ -4,6 +4,8 @@ Dit is mijn taak voor het website gedeelte van software security.
 Ik maak gebruik van het laravel framework met jetstream voor de authenticatie en
 de api management.
 
+De email bij het registreren komt in spam. dit los ik nog op.
+
 [Link naar de website](https://aronraes.be)
 
 ## Verwerkingsregister
