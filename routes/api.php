@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\PostsController;
+use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,17 +19,16 @@ use Orion\Facades\Orion;
 |
 */
 
-Route::middleware(['auth:sanctum'])->group(function () {
-    // Route::get('user', function (Request $request) {
-    //     return $request->user();
-    // });
-
-    Route::group(['as' => 'api.'], function () {
-        Orion::resource('posts', PostsController::class);
+// Publicly available.
+Route::group(['as' => 'api.'], function () {
+    Route::get('posts', function () {
+        return Post::all();
     });
 });
 
-
-// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
+// Protected by the auth middleware.
+Route::middleware(['auth:sanctum'])->group(function () {
+    Route::group(['as' => 'api.'], function () {
+        Orion::resource('posts', PostsController::class)->except(['index','batchStore', 'batchUpdate']);
+    });
+});
