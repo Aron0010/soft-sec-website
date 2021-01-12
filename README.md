@@ -15,6 +15,12 @@ De email bij het registreren komt in spam. dit los ik nog op.
 Onder de 'profile' pagina staat er een optie om je gegevens te downloaden. Dit
 zal een zip file mailen naar jouw email adres met daarin uw user gegevens en uw
 blog posts in de vorm van json files.
+
+## Contact
+Ik heb een contact pagina toegevoegt die enkel zichbaar is voor aangemelde
+gebruikers. Deze pagina kan gebruikt worden als een klachten pagina. Het
+formulier wordt naar mijn mail adres gestuurd. Als u dit wilt controleren kan u
+altijd een call doen met mij. Dan geef ik ook wat meer uitleg over mijn opdracht.
  
 ## Api endpoints
 

@@ -13,10 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/', function () {
         return view('dashboard');
     });
+
+
+    Route::view('contact', 'contact-form.contact')->name('contact');
 
     Route::get('dashboard', function () {
         return view('dashboard');
