@@ -12,16 +12,19 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::view('privacy-note', 'privacy-note')->name('privacy-note');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-    Route::get('/', function () {
-        return view('dashboard');
-    });
+    // Route::get('/', function () {
+    //     return view('dashboard');
+    // });
 
 
     Route::view('contact', 'contact-form.contact')->name('contact');
+
 
     Route::get('dashboard', function () {
         return view('dashboard');

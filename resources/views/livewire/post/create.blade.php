@@ -55,5 +55,3 @@
     Submit Post
   </div>
 </div>
-</div>
-</div>

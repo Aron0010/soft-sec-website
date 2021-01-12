@@ -20,7 +20,11 @@ blog posts in de vorm van json files.
 Ik heb een contact pagina toegevoegt die enkel zichbaar is voor aangemelde
 gebruikers. Deze pagina kan gebruikt worden als een klachten pagina. Het
 formulier wordt naar mijn mail adres gestuurd. Als u dit wilt controleren kan u
-altijd een call doen met mij. Dan geef ik ook wat meer uitleg over mijn opdracht.
+altijd een call doen met mij. Dan geef ik ook wat meer uitleg over mijn
+opdracht.
+
+## Privacy verklaring
+De privacy verklaring is terug te vinden op deze pagina: [Privacy Verklaring](https://aronraes.be/privacy-note)
  
 ## Api endpoints
 
