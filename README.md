@@ -10,6 +10,11 @@ De email bij het registreren komt in spam. dit los ik nog op.
 
 ## Verwerkingsregister
 [(TBD) link naar verwerkingsregister]()
+
+## Download user data
+Onder de 'profile' pagina staat er een optie om je gegevens te downloaden. Dit
+zal een zip file mailen naar jouw email adres met daarin uw user gegevens en uw
+blog posts in de vorm van json files.
  
 ## Api endpoints
 

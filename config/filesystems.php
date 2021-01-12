@@ -48,6 +48,11 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'personal-data-exports' => [
+            'driver' => 'local',
+            'root' => storage_path('app/personal-data-exports'),
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

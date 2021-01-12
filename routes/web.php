@@ -28,4 +28,6 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('post/{slug}', \App\Http\Livewire\Post\Show::class);
 
     Route::view('blog', 'post.index')->name('blog');
+
+    Route::personalDataExports('personal-data-exports');
 });
