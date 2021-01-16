@@ -67,3 +67,6 @@ https://jetstream.laravel.com/1.x/installation.html
 https://github.com/spatie/laravel-csp
 https://github.com/Elhebert/laravel-sri
 https://github.com/mikefrancis/laravel-secureheaders
+
+#### testing
+https://securityheaders.com/

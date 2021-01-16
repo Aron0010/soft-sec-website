@@ -4,7 +4,8 @@
     {!! trans('cookieConsent::texts.message') !!}
   </span>
 
-  <button class="js-cookie-consent-agree cookie-consent__agree" style="cursor: pointer; color: white;">
+  <button class="js-cookie-consent-agree cookie-consent__agree"
+    style="cursor: pointer;  background-color: green; color: white;">
     {{ trans('cookieConsent::texts.agree') }}
   </button>
 </div>
