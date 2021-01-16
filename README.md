@@ -12,9 +12,9 @@ De email bij het registreren komt in spam. dit los ik nog op.
 [(TBD) link naar verwerkingsregister]()
 
 ## Download user data
-Onder de 'profile' pagina staat er een optie om je gegevens te downloaden. Dit
-zal een zip file mailen naar jouw email adres met daarin uw user gegevens en uw
-blog posts in de vorm van json files.
+Onder de 'user/profile' pagina staat er een optie om je gegevens te downloaden. Dit
+zal een zip file mailen naar jouw email adres met daarin uw user gegevens en
+alle gegevens gerelateerd aan uw user.
 
 ## Contact
 Ik heb een contact pagina toegevoegt die enkel zichbaar is voor aangemelde
@@ -48,18 +48,22 @@ Niets speciaal hier
 
 ####  Toegangscontrole
 ? De gevraagde policy is gemaakt, geen extra features. Moet ik deze hier nog uitschrijven of is dit voldoende?
-```
-+-----------+-----------+--------------------------+----------+-----------------------------------------+
-| User      | Role      | Email                    | Password | API Token                               |
-+-----------+-----------+--------------------------+----------+-----------------------------------------+
-| Aron Raes | Beheerder | aron.raes@student.ehb.be | qwfpgjlu | JK5x7uHFdXUwLBDi9uL4UY2NrBOKxK593I7lAOxS
-| User 1    | Gebruiker | aron.raes@hotmail.com    | qwfpgjlu | K63iAkuRM8XP76xrd9sPE9cb2lDOkvy68ilGPSHe
-```
-
-? Moet de policy ook op de webtoepassing van kracht zijn of enkel op de rest api?
 
 
+### Maatregelen tegen courante aanvallen
+Ik heb gesubscribed op een mailing list die nieuwe aanvallen en risico's laat
+weten: https://us-cert.cisa.gov/ncas/alerts
+
+### CSP
+Implemented
+
+### SRI
+Alle resources hebben SRI enabled via een package dat dit check, enkel de google
+fonts niet (google fonts laat dit niet toe) 
 ###  Used packages 
 https://github.com/jeremykenedy/laravel-roles
 https://laravel.com/docs/8.x
 https://jetstream.laravel.com/1.x/installation.html
+https://github.com/spatie/laravel-csp
+https://github.com/Elhebert/laravel-sri
+https://github.com/mikefrancis/laravel-secureheaders
