@@ -13,7 +13,7 @@
     rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ mix('css/app.css') }}" integrity="{{ Sri::hash('css/app.css') }}">
+  <link rel="stylesheet" href="{{ mix('css/app.css') }}" >
 
   <!-- Scripts -->
   <script integrity="{{ Sri::hash('https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.js') }}"
