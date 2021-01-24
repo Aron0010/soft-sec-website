@@ -18,7 +18,7 @@
   @livewireStyles
 
   <!-- Scripts -->
-  <script integrity="{{ Sri::hash('js/app.js') }}" src="{{ mix('js/app.js') }}" defer>
+  <script src="{{ mix('js/app.js') }}" defer>
   </script>
 </head>
 
