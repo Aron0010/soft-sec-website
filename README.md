@@ -54,12 +54,42 @@ Niets speciaal hier
 Ik heb gesubscribed op een mailing list die nieuwe aanvallen en risico's laat
 weten: https://us-cert.cisa.gov/ncas/alerts
 
+Ik heb Dependabot toegevoegd aan mijn repo, deze zal mij melden als er nieuwe
+kwetsbaarheden zijn.
+
 ### CSP
 Implemented
 
 ### SRI
 Alle resources hebben SRI enabled via een package dat dit check, enkel de google
 fonts niet (google fonts laat dit niet toe) 
+
+### Verwerkingsregister
+ 
+Contactgegevens:
+ 
+Bedrijfsnaam: Aron Raes, Meidoornlaan 7, 1740 Ternat, e-mailadres: aron.raes@student.ehb.be, telefoonnummer: 0496344475
+Verantwoordelijke: A Raes, e-mailadres: aron.raes@student.ehb.be, telefoonnummer: 0496344475
+ 
+Verwerkingsactiviteiten van reguliere persoonsgegevens:
+ 
+Categorie persoonsgegeven(s): Digitale gegevens (IP adressen, inloggegevens)
+Categorie betrokkenen: Leden
+Grondslag voor de verwerking: Overeenkomst
+Doel verwerking: Ledenadministratie
+Zelf verwerken: Ja  
+Waar bevindt zich de verwerker? Niet van toepassing 
+EU Verwerkersovereenkomst? Niet van toepassing/Niet nodig 
+Bewaartermijn: onbekend
+Veiligheidsmaatregelen: Encryptie persoonsgegevens 
+ 
+Verwerkingsactiviteiten van bijzondere persoonsgegevens: NVT 
+ 
+Datum aanmaken register: 24 januari 2021
+Updates: 
+
+
+
 ###  Used packages 
 https://github.com/jeremykenedy/laravel-roles
 https://laravel.com/docs/8.x

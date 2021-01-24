@@ -5,7 +5,7 @@ return [
     'errorReporting' => true,
 
     // Safe mode
-    'safeMode' => false,
+    'safeMode' => true,
 
     // HSTS Strict-Transport-Security
     'hsts' => [
@@ -32,14 +32,13 @@ return [
             'fonts.gstatic.com',
             'maxcdn.bootstrapcdn.com',
             'self',
-            'unsafe-inline'
         ],
         'script-src' => [
             'self',
-            'unsafe-inline',
             'cdn.jsdelivr.net',
             'unsafe-eval',
             'code.jquery.com',
+            'unsafe-inline'
         ],
     ],
 

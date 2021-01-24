@@ -22,7 +22,7 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \Spatie\CookieConsent\CookieConsentMiddleware::class,
-        \MikeFrancis\LaravelSecureHeaders\ApplySecureHeaders::class,
+        // \MikeFrancis\LaravelSecureHeaders\ApplySecureHeaders::class,
     ];
 
     /**

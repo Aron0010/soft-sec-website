@@ -81,7 +81,7 @@
       (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door
       computerprogramma's of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Aron Raes)
       tussen
-      zit. Aron Raes gebruikt de volgende computerprogramma's of -systemen:</p>
+      zit.</p>
 
     <br>
     <br>
@@ -115,9 +115,8 @@
       Cookies, of vergelijkbare technieken, die wij gebruiken
     </h2>
 
-    <p> Aron Raes gebruikt alleen technische en functionele cookies. En analytische cookies die geen inbreuk maken
-      op uw
-      privacy. Een cookie is een klein tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen op
+    <p> Aron Raes gebruikt alleen technische en functionele cookies. Een cookie is een klein tekstbestand dat bij
+      het eerste bezoek aan deze website wordt opgeslagen op
       uw
       computer, tablet of smartphone. De cookies die wij gebruiken zijn noodzakelijk voor de technische werking
       van de
@@ -154,7 +153,7 @@
       verzoek reageren. Aron Raes wil u er tevens op wijzen dat u de mogelijkheid hebt om een klacht in te dienen
       bij
       de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link:
-      https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</p>
+      https://www.dataprotectionauthority.be</p>
 
     <br>
     <br>

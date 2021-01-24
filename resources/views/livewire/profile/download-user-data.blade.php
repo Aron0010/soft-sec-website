@@ -12,9 +12,12 @@
       {{ __('Download all data related to your account.') }}
     </div>
 
+
     <div class="mt-5">
 
-      <x-jet-button wire:click="downloadUserData" wire:loading.attr="disabled">
+      <x-jet-button wire:click="downloadUserData"
+        onclick="confirm('If you proceed We will send you an email to you, from there you can download your user data') || event.stopImmediatePropagation()"
+        wire:loading.attr="disabled">
         {{ __('Download') }}
       </x-jet-button>
     </div>

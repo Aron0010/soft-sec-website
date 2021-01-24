@@ -59,7 +59,6 @@
   @stack('modals')
 
 
-
   @livewireScripts
 </body>
 
